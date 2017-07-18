@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1494629805 source:e:\acm\maopaopaixu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
