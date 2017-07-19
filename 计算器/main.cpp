@@ -12,16 +12,19 @@ stack<int> stackop;
 stack<double> stackin;
 int priority[][5]={1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,1,1,0,0};
 void getop(bool &retop,int &retin,int &index){
+    int temp;
     if(str[index]!=NULL)///没到字符尾部
     {
-
-            if(str[index]>='0'&&str[index]<='9'){//是数字，记录数值
+            retin=0;
+            while(str[index]>='0'&&str[index]<='9'){//是数字，记录数值
                 retop=false;
-                retin=str[index]-'0';
+                temp=str[index]-'0';
+                retin=retin*10+temp;
                 index++;         //不要忘记下标+1
+                if(!(str[index]>='0'&&str[index]<='9'))///数字结束，返回
                 return;
             }
-            else//记录操作符
+            if(!(str[index]>='0'&&str[index]<='9'))//记录运算符
             {
                 retop=true;//有retop存在所以  retin可以是0,1,2,3
                 if(str[index]=='+')
@@ -37,6 +40,7 @@ void getop(bool &retop,int &retin,int &index){
                 return;
 
             }
+
     }
             if(str[index]==NULL)///遍历到字符串尾部
             {
@@ -50,14 +54,12 @@ void getop(bool &retop,int &retin,int &index){
 int main()
 {
     int retn;bool reto;int i;
-    int a,b,c,len;
+    double a,b,c;
     double temp;
     int j;
     //(gets(str))
     while(gets(str)){
     i=0;
-    len=strlen(str);///表达式长度
-//    printf("%d",len);
     while(!stackin.empty())
         stackin.pop();
     while(!stackop.empty())
@@ -92,20 +94,17 @@ int main()
     }
     else//是数字
     {
-        stackin.push(retn);//数字入栈
- //       printf("%d",retin);
+        stackin.push((double)retn);//数字入栈
+
     }
-//    printf("%d",i);
-//    if(str[i]==NULL)
-//        printf("66666");
-//        break;
+
     if(stackop.size()==2&&stackin.size()==1&&stackop.top()==0)
         break;
 
 
 
     }
-    printf("%d\n",stackin.top());
+    printf("%.2lf\n",stackin.top());
     memset(str,0,sizeof(str));
     }
 
