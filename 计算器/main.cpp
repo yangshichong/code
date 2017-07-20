@@ -1,12 +1,12 @@
 /**
-¼ÆËãÆ÷Ë¼Â·£ºÁ½¸öÕ»£¬Êý×ÖÕ»ºÍÔËËã·ûÕ»£¨¶¼ÊÇÊýÖµÕ»£¬ÓÃ²»Í¬Êý×Ö´ú±í+-/*£©£¬ÒÀ´Î±éÀú×Ö·û´®£¬Êý×ÖÔòÖ±½ÓÈëÊý×ÖÕ»£»ÔËËã·û±ÈÕ»¶¥ÔËËã·ûÓÅÏÈ¼¶´óÔòÈëÕ»£»
-·ñÔò£¬´ÓÕ»¶¥µ¯Õ»£¬ÔÙÈ¡Êý×ÖÕ»¶¥µÄÁ½¸öÕ»£¬½øÐÐÔËËã£¬½á¹ûÔÙÑ¹ÈëÊý×ÖÕ»¡£ÎªÁËÅÐ¶ÏÔËËãÊÇ·ñ½áÊø£¬¹ÊÔÚÕ»µÄ¿ªÍ·½áÎ²
-ÉèÖÃÓÅÏÈ¼¶×îµÍµÄ±ê¼ÇÔËËã·û¡£µ±ÔËËã·ûÕ»½öÊ£Á½¸ö±ê¼ÇÔËËã·ûÊ±£¬ÔËËã½áÊø£»Êý×ÖÕ»µÄÎ¨Ò»ÔªËØ¼´Îª½á¹û¡£
+è®¡ç®—å™¨æ€è·¯ï¼šä¸¤ä¸ªæ ˆï¼Œæ•°å­—æ ˆå’Œè¿ç®—ç¬¦æ ˆï¼ˆéƒ½æ˜¯æ•°å€¼æ ˆï¼Œç”¨ä¸åŒæ•°å­—ä»£è¡¨+-/*ï¼‰ï¼Œä¾æ¬¡éåŽ†å­—ç¬¦ä¸²ï¼Œæ•°å­—åˆ™ç›´æŽ¥å…¥æ•°å­—æ ˆï¼›è¿ç®—ç¬¦æ¯”æ ˆé¡¶è¿ç®—ç¬¦ä¼˜å…ˆçº§å¤§åˆ™å…¥æ ˆï¼›
+å¦åˆ™ï¼Œä»Žæ ˆé¡¶å¼¹æ ˆï¼Œå†å–æ•°å­—æ ˆé¡¶çš„ä¸¤ä¸ªæ ˆï¼Œè¿›è¡Œè¿ç®—ï¼Œç»“æžœå†åŽ‹å…¥æ•°å­—æ ˆã€‚ä¸ºäº†åˆ¤æ–­è¿ç®—æ˜¯å¦ç»“æŸï¼Œæ•…åœ¨æ ˆçš„å¼€å¤´ç»“å°¾
+è®¾ç½®ä¼˜å…ˆçº§æœ€ä½Žçš„æ ‡è®°è¿ç®—ç¬¦ã€‚å½“è¿ç®—ç¬¦æ ˆä»…å‰©ä¸¤ä¸ªæ ‡è®°è¿ç®—ç¬¦æ—¶ï¼Œè¿ç®—ç»“æŸï¼›æ•°å­—æ ˆçš„å”¯ä¸€å…ƒç´ å³ä¸ºç»“æžœã€‚
 
-ÔËËã·ûµÄÓÅÏÈ¼¶ÓÃ¶þÎ¬Êý×éµÄ0»ò1ÅÐ¶Ï
+è¿ç®—ç¬¦çš„ä¼˜å…ˆçº§æ˜¯ç”¨äºŒç»´æ•°ç»„çš„0æˆ–1åˆ¤æ–­
 
-¹Ø¼üÔÚÓÚº¯Êývoid getop(bool &retop,int &retin,int &index)£¬´Ó×Ö·û´®ÖÐÈ¡Êý×Ö»òÕßÔËËã·û£¬ÏÈÅÐ¶Ï
-ÊÇ·ñµ½ÁË×Ö·û´®Î²£»ÔÙ·ÖÊý×Ö»òÕßÔËËã·û´¦Àí¡£bool retop±ê¼Ç²Ù×÷·û/Êý×Ö£¬retin·µ»ØÊýÖµ»ò²Ù×÷·û£¬index×÷Îª×Ö·û´®ÏÂ±ê
+å…³é”®åœ¨äºŽå‡½æ•°void getop(bool &retop,int &retin,int &index)ï¼Œä»Žå­—ç¬¦ä¸²ä¸­å–æ•°å­—æˆ–è€…è¿ç®—ç¬¦ï¼Œå…ˆåˆ¤æ–­
+æ˜¯å¦åˆ°äº†å­—ç¬¦ä¸²å°¾ï¼›å†åˆ†æ•°å­—æˆ–è€…è¿ç®—ç¬¦å¤„ç†ã€‚bool retopæ ‡è®°æ“ä½œç¬¦/æ•°å­—ï¼Œretinè¿”å›žæ•°å€¼æˆ–æ“ä½œç¬¦ï¼Œindexä½œä¸ºå­—ç¬¦ä¸²ä¸‹æ ‡
 **/
 #include <stdio.h>
 #include<stack>
@@ -17,31 +17,31 @@ char str[200];
 stack<int> stackop;
 stack<double> stackin;
 int priority[][5]={1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,1,1,0,0};
-/**ÒýÓÃ¾ÍÊÇ¸ø±äÁ¿Æð±ðÃû£¬Ïàµ±ÓÚÊ¹ÓÃÁËÖ¸Õë£¬¶ÔÒýÓÃµÄ²Ù×÷¾ÍÊÇ¶ÔÔ­±äÁ¿µÄ²Ù×÷£¬½â¾öÁË²ÎÊý´«µÝ²»¸Ä±äÔ­ÖµµÄÈ±µã**/
+/**å¼•ç”¨å°±æ˜¯ç»™å˜é‡èµ·åˆ«åï¼Œç›¸å½“äºŽä½¿ç”¨äº†æŒ‡é’ˆï¼Œå¯¹å¼•ç”¨çš„æ“ä½œå°±æ˜¯å¯¹åŽŸå˜é‡çš„æ“ä½œï¼Œè§£å†³äº†å‚æ•°ä¼ é€’ä¸æ”¹å˜åŽŸå€¼çš„ç¼ºç‚¹**/
 void getop(bool &retop,int &retin,int &index){
     int temp;
-    if(str[index]!=0)///Ã»µ½×Ö·ûÎ²²¿
+    if(str[index]!=0)///æ²¡åˆ°å­—ç¬¦å°¾éƒ¨
     {
         if(str[index]=='x'){
             retop=false;
-            printf("ÇëÊäÈëxµÄÖµ£º");
+            printf("è¯·è¾“å…¥xçš„å€¼ï¼š");
             scanf("%d",&retin);
-            getchar();///±ØÐë°Ñ»º³åÇøµÄ»»ÐÐ·û½ÓÊÕ£¬·ñÔòÓ°Ïìgets()
+            getchar();///å¿…é¡»æŠŠç¼“å†²åŒºçš„æ¢è¡Œç¬¦æŽ¥æ”¶ï¼Œå¦åˆ™å½±å“gets()
             index++;
             return;
         }
             retin=0;
-            while(str[index]>='0'&&str[index]<='9'){///ÊÇÊý×Ö£¬¼ÇÂ¼ÊýÖµ
+            while(str[index]>='0'&&str[index]<='9'){///æ˜¯æ•°å­—ï¼Œè®°å½•æ•°å€¼
                 retop=false;
                 temp=str[index]-'0';
                 retin=retin*10+temp;
-                index++;         //²»ÒªÍü¼ÇÏÂ±ê+1
-                if(!(str[index]>='0'&&str[index]<='9'))///Êý×Ö½áÊø£¬·µ»Ø
+                index++;         //ä¸è¦å¿˜è®°ä¸‹æ ‡+1
+                if(!(str[index]>='0'&&str[index]<='9'))///æ•°å­—ç»“æŸï¼Œè¿”å›ž
                 return;
             }
-            if(!(str[index]>='0'&&str[index]<='9'))//¼ÇÂ¼ÔËËã·û
+            if(!(str[index]>='0'&&str[index]<='9'))//è®°å½•è¿ç®—ç¬¦
             {
-                retop=true;//ÓÐretop´æÔÚËùÒÔ  retin¿ÉÒÔÊÇ0,1,2,3
+                retop=true;//æœ‰retopå­˜åœ¨æ‰€ä»¥  retinå¯ä»¥æ˜¯0,1,2,3
                 if(str[index]=='+')
                     retin=1;
                 if(str[index]=='-')
@@ -57,7 +57,7 @@ void getop(bool &retop,int &retin,int &index){
             }
 
     }
-            if(str[index]==0)///±éÀúµ½×Ö·û´®Î²²¿
+            if(str[index]==0)///éåŽ†åˆ°å­—ç¬¦ä¸²å°¾éƒ¨
             {
                 retop=true;
                 retin=0;
@@ -79,15 +79,15 @@ int main()
         stackin.pop();
     while(!stackop.empty())
         stackop.pop();
-    stackop.push(0);///·ÅÈë±ê¼ÇÔËËã·û
+    stackop.push(0);///æ”¾å…¥æ ‡è®°è¿ç®—ç¬¦
 
     while(true){
-    getop(reto,retn,i);///´Ó×Ö·û´®È¡ÔªËØ
-    if(reto){                   ///ÊÇ²Ù×÷·û
-        if(stackop.empty()||priority[retn][stackop.top()]==1)///µ±Ç°ÔËËã·ûÓÅÏÈ¼¶´óÓÚÕ»¶¥ÔËËã·û
+    getop(reto,retn,i);///ä»Žå­—ç¬¦ä¸²å–å…ƒç´ 
+    if(reto){                   ///æ˜¯æ“ä½œç¬¦
+        if(stackop.empty()||priority[retn][stackop.top()]==1)///å½“å‰è¿ç®—ç¬¦ä¼˜å…ˆçº§å¤§äºŽæ ˆé¡¶è¿ç®—ç¬¦
             stackop.push(retn);
         else{
-        while(priority[retn][stackop.top()]==0){                       ///µ±Ç°ÔËËã·ûÓÅÏÈ¼¶Ð¡ÓÚÕ»¶¥ÔËËã·û
+        while(priority[retn][stackop.top()]==0){                       ///å½“å‰è¿ç®—ç¬¦ä¼˜å…ˆçº§å°äºŽæ ˆé¡¶è¿ç®—ç¬¦
             a=stackin.top();
             stackin.pop();
             b=stackin.top();
@@ -97,19 +97,19 @@ int main()
             if(c==1)
                 temp=b+a;
             if(c==2)
-                temp=b-a;                   /*µ±Ç°µÄÔËËã·ûÒ²Òª·Å½øÈ¥£¡£¡£¡*/
+                temp=b-a;                   /*å½“å‰çš„è¿ç®—ç¬¦ä¹Ÿè¦æ”¾è¿›åŽ»ï¼ï¼ï¼*/
             if(c==3)
                 temp=b*a;
             if(c==4)
                 temp=b/a;
-            stackin.push(temp);///ÔËËã½á¹ûÈëÊý×ÖÕ»
+            stackin.push(temp);///è¿ç®—ç»“æžœå…¥æ•°å­—æ ˆ
         }
-        stackop.push(retn);///µ±Ç°ÔËËã·ûÓÅÏÈ¼¶´óÓÚÕ»¶¥ÔËËã·ûÓÅÏÈ¼¶£¬Ôòµ±Ç°ÔËËã·ûÈëÕ»¡£
+        stackop.push(retn);///å½“å‰è¿ç®—ç¬¦ä¼˜å…ˆçº§å¤§äºŽæ ˆé¡¶è¿ç®—ç¬¦ä¼˜å…ˆçº§ï¼Œåˆ™å½“å‰è¿ç®—ç¬¦å…¥æ ˆã€‚
         }
     }
-    else//ÊÇÊý×Ö
+    else//æ˜¯æ•°å­—
     {
-        stackin.push((double)retn);//Êý×ÖÈëÕ»
+        stackin.push((double)retn);//æ•°å­—å…¥æ ˆ
 
     }
 
